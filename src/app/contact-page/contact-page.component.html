@@ -1,0 +1,30 @@
+<div class="m-2" style="background-color:#FBA481; color: white;">
+    <div class="container p-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">feel free to</div>
+        </div>
+        <div class="panel-body">
+            <h3>Contact me</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 ">
+                <form (ngSubmit)="sendMail(newRequestForm.value)">
+                    <div class="form-group">
+                        <label for="emailInput">Your email</label>
+                        <input (ngModel)="email" type="email" class="form-control" name="emailInput" id="emailInput" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="regardingInput">Why do you contact me?</label>
+                        <input (ngModel)="regarding" type="text" class="form-control" name="regardingInput" id="regardingInput">
+                    </div>
+                    <div class="form-group">
+                        <label for="textTextarea">Your text</label>
+                        <textarea (ngModel)="text" class="form-control" name="textTextarea" id="textTextarea" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-light">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
