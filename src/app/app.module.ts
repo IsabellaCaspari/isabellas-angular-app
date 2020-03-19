@@ -11,6 +11,9 @@ import { FooterComponent } from './footer/footer.component';
 import { CurriculumVitaePageComponent } from './curriculum-vitae-page/curriculum-vitae-page.component';
 import { AboutMePageComponent } from './about-me-page/about-me-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
+import { FormsModule } from '@angular/forms';
+import { PortfolioSiteComponent } from './portfolio-site/portfolio-site.component';
+import { CarouselModule } from 'ngx-bootstrap';
 
 @NgModule({
   declarations: [
@@ -21,12 +24,15 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
     FooterComponent,
     CurriculumVitaePageComponent,
     AboutMePageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    PortfolioSiteComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RatingModule.forRoot()
+    RatingModule.forRoot(),
+    FormsModule,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
