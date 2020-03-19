@@ -9,16 +9,18 @@
 
         <div class="row p-4">
             <div class="col-sm-12">
-                <carousel [itemsPerSlide]="itemsPerSlide" [singleSlideOffset]="singleSlideOffset" [noWrap]="noWrap" [interval]="false" [startFromIndex]="5" (slideRangeChange)="onSlideRangeChange($event)">
-                    <slide *ngFor="let slide of slides; let index=index" class="mx-auto p-4 center">
-                        <img [src]="slide.image" class="center" alt="image slide" style="width: 50%; margin-bottom:20px">
-                        <div class="carousel-caption">
-                            <h4>Slide {{index}}</h4>
+                <carousel [itemsPerSlide]="itemsPerSlide" [singleSlideOffset]="singleSlideOffset" [noWrap]="!noWrap" [interval]="false" [startFromIndex]="0" (slideRangeChange)="onSlideRangeChange($event)">
+                    <slide *ngFor="let slide of slides; let index=index" class="mx-auto">
+                        <div class="card center mb-5" style="width: 80%;">
+                            <img class="card-img-top" [src]="slide.imageLink" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">{{slide.title}}</h5>
+                                <p class="card-text">{{slide.description}}</p>
+                                <a *ngIf="[slide.link]" class="btn btn-primary">See more</a>
+                            </div>
                         </div>
                     </slide>
                 </carousel>
             </div>
         </div>
     </div>
-
-</div>
