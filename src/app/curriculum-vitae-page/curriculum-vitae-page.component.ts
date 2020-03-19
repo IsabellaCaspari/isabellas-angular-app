@@ -46,7 +46,7 @@ export class CurriculumVitaePageComponent implements OnInit {
       startDate: new Date(2015, 10, 1), endDate: new Date(2016, 7, 1)},
       {title: 'working student focus on development and usability design',
       description: 'DATEV eG',
-      startDate: new Date(2014, 9, 1), endDate: new Date(2014, 6, 1)},
+      startDate: new Date(2014, 9, 1), endDate: new Date(2015, 6, 1)},
       {title: 'apprenticeship as computer science expert',
       description: 'DATEV eG',
       startDate: new Date(2010, 8, 1), endDate: new Date(2013, 6, 1)}

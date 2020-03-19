@@ -3,4 +3,5 @@ export interface TechSkill {
   imageLink?: string;
   skillLevel: number;
   star: number;
+  link?: string;
 }
