@@ -12,7 +12,7 @@ export class ContactPageComponent implements OnInit {
   text: string;
   constructor() { }
 
-  ngOnInit(){}
+  ngOnInit() {}
 
   sendMail(formValue: any) {
     console.log(formValue.email + ' ' + formValue.regarding  + ' ' + formValue.text);
