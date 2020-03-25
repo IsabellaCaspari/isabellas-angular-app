@@ -1,12 +1,11 @@
 <div class="m-2" id="contact" style="background-color:#FBA481; color: white;">
     <div class="container p-4">
-        <div class="panel panel-primary">
-            <div class="panel-heading">feel free to</div>
+        <div class="row">
+            <div class="col-md-6 pb-2">
+                feel free to
+                <h3>Contact me</h3>
+            </div>
         </div>
-        <div class="panel-body">
-            <h3>Contact me</h3>
-        </div>
-
         <div class="row">
             <div class="col-md-6 ">
                 <form #newRequest="ngForm" (ngSubmit)="sendMail(newRequest.value)">

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contact-page',
@@ -10,12 +11,12 @@ export class ContactPageComponent implements OnInit {
   email: string;
   regarding: string;
   text: string;
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {}
 
   sendMail(formValue: any) {
-    console.log(formValue.email + ' ' + formValue.regarding  + ' ' + formValue.text);
+    open('mailto:isabella.caspari@posteo.de?subject=' + formValue.regarding + '&body=' + formValue.text);
   }
 
 }

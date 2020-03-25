@@ -17,6 +17,11 @@ h4 {
     width: 60% !important;
 }
 
+.btn-primary {
+    background: #5089A5;
+    border-color: #5089A5;
+}
+
 @media only screen and (max-width: 767px) {
     .card.center.mb-5 {
         width: 100% !important;

@@ -19,14 +19,12 @@ export class CurriculumVitaePageComponent implements OnInit {
 
   initList() {
     this.eduTimePeriod = [
-      {title: 'Bachelor of engineering',
-      description: 'Georg-Simon-Ohm technical university Nürnberg, media engineering',
+      {title: 'Bachelor of Engineering',
+      description: 'Georg-Simon-Ohm technical university, Media Engineering',
       startDate: new Date(2014, 9, 10), endDate: new Date(2018, 2, 1)},
         {title: 'A-Level focus on economy',
         description: 'Berufsoberschule Scheyern', startDate: new Date(2013, 8, 1), endDate: new Date(2014, 6, 1)},
-      {title: 'vocation school',
-      description: 'Martin-Segitz vocational school', startDate: new Date(2010, 8, 1), endDate: new Date(2013, 6, 1)},
-      {title: 'B-Level focus on art',
+      {    title: 'B-Level focus on art',
       description: 'Dietrich-Bonhoeffer Realschule Neustadt/Aisch', startDate: new Date(2004, 8, 1), endDate: new Date(2010, 6, 1)}
     ];
 
@@ -35,19 +33,19 @@ export class CurriculumVitaePageComponent implements OnInit {
       {title: 'android developer',
       description: 'adorsys Gmbh & Co.KG',
       startDate: new Date(2018, 7, 1), endDate: new Date(2020, 3, 1)},
-      {title: 'working student developer',
+      {title: 'developer (working student)',
       description: 'adorsys Gmbh & Co.KG ',
       startDate: new Date(2017, 7, 1), endDate: new Date(2018, 5, 1)},
-      {title: 'working student for usability design',
+      {title: 'usability design (working student)',
       description: 'DATEV eG',
       startDate: new Date(2016, 7, 1), endDate: new Date(2017, 7, 1)},
-      {title: 'internship for website development and ui design',
+      {title: 'website development (internship)',
       description: 'Universitas Kristen Immanuel Yogyakarta',
       startDate: new Date(2015, 10, 1), endDate: new Date(2016, 7, 1)},
-      {title: 'working student focus on development and usability design',
+      {title: 'development, usability design (working student)',
       description: 'DATEV eG',
       startDate: new Date(2014, 9, 1), endDate: new Date(2015, 6, 1)},
-      {title: 'apprenticeship as computer science expert',
+      {title: 'computer science expert (apprenticeship)',
       description: 'DATEV eG',
       startDate: new Date(2010, 8, 1), endDate: new Date(2013, 6, 1)}
       ];

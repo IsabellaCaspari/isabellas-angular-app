@@ -29,8 +29,8 @@ export class TechSkillPageComponent implements OnInit {
      {name: 'html', imageLink: '/assets/img/logos/html_css_logo.png', skillLevel: 80, star: 4,
      link: 'https://html.spec.whatwg.org/multipage/'},
      {name: 'css', imageLink: '/assets/img/logos/css_logo.png', skillLevel: 80, star: 4,  link: 'https://www.w3schools.com/css/'},
-     {name: 'angular', imageLink: '/assets/img/logos/angular_logo.png', skillLevel: 60, star: 3,  link: 'https://angular.io'},
-     {name: 'adobe', imageLink: '/assets/img/logos/adobe_cloud_logo.png', skillLevel: 60, star: 3,  link: 'https://www.adobe.com'}
+     {name: 'angular', imageLink: '/assets/img/logos/angular_logo.png', skillLevel: 70, star: 3,  link: 'https://angular.io'},
+     {name: 'indesign, photoshop, illustrator', imageLink: '/assets/img/logos/adobe_cloud_logo.png', skillLevel: 80, star: 3,  link: 'https://www.adobe.com'}
     ];
   }
 
