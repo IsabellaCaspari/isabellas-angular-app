@@ -13,10 +13,10 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v1
 
-        - name: Node $
+        - name: Node v13.11.0
           uses: actions/setup-node@v1
           with:
-            node-version: $
+            node-version: v13.11.0
 
         - name: npm install and npm run build
           run: |
