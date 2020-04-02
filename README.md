@@ -1,4 +1,5 @@
 # IsabellasAngularApp
+[![build status](https://github.com/coryrylan/angular-github-actions/workflows/Build/badge.svg)](https://github.com/IsabellaCaspari/isabellas-angular-app/actions)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
