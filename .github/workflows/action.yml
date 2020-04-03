@@ -23,11 +23,11 @@ jobs:
             npm ci 
             npm run build:ci
             
-        - name: checkout and push changes to ext repo
-          run: |
-            git clone https://.:${{ secrets.GITHUB_TOKEN }}@github.com/IsabellaCaspari/isabellacaspari.github.io target
-            rm target
-            copy docs target
-            git add target
-            git commit -m "Automatic publish from github.com/isabellas-angular-app"
-            git push target master
+        - name: Copy to isabellacaspari.github.io
+          uses: andstor/copycat-action@v3
+          with:
+            personal_token: ${{ secrets.PERSONAL_TOKEN }}
+            src_path: docs
+            dst_path: /.
+            dst_owner: IsabellaCaspari
+            dst_repo_name: isabellacaspari.github.io
