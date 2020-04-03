@@ -27,6 +27,8 @@ jobs:
           uses: andstor/copycat-action@v3
           with:
             personal_token: ${{ secrets.github_action_token }}
+            dst_branch: master
+            src_branch: master
             src_path: docs
             dst_path: /.
             dst_owner: IsabellaCaspari
