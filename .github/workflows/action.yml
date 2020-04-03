@@ -30,7 +30,6 @@ jobs:
             dst_branch: master
             src_branch: master
             src_path: docs/.
-            clean: true
             dst_path: /.
             dst_owner: IsabellaCaspari
             dst_repo_name: isabellacaspari.github.io
