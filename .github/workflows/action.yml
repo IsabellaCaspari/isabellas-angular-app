@@ -20,15 +20,9 @@ jobs:
           
         - name: npm install and npm run build
           run: |
-            npm i
-            npm run build:prod
+            npm ci 
+            npm run build:ci
           
-        - name: Push Build to Releases
-          uses: ncipollo/release-action@v1
-          with:
-           tag: "release-build"
-           token: ${{ secrets.PERSONAL_TOKEN }}
-
         - name: Copy to isabellacaspari.github.io
           uses: andstor/copycat-action@v3
           with:
