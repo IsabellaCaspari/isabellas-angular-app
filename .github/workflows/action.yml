@@ -26,6 +26,7 @@ jobs:
         - name: Push Build to Releases
           uses: ncipollo/release-action@v1
           with:
+           tag: "release-build"
            token: ${{ secrets.PERSONAL_TOKEN }}
 
         - name: Copy to isabellacaspari.github.io
