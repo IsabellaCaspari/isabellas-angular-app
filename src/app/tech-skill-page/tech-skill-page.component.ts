@@ -24,7 +24,8 @@ export class TechSkillPageComponent implements OnInit {
   initList() {
     this.techList = [
      {name: 'android', imageLink: '/assets/img/logos/android_logo.png', skillLevel: 75, star: 5, link: 'https://developer.android.com'},
-     {name: 'kotlin', imageLink: '/assets/img/logos/kotlin_logo.png', skillLevel: 70, star: 4, link: 'https://kotlinlang.org'},
+     {name: 'kotlin', imageLink: '/assets/img/logos/kotlin_logo.png', skillLevel: 80, star: 4, link: 'https://kotlinlang.org'},
+     {name: 'flutter', imageLink: '/assets/img/logos/flutter_logo.png', skillLevel: 70, star: 4, link: 'https://flutter.dev'},
      {name: 'java', imageLink: '/assets/img/logos/java_logo.png', skillLevel: 75, star: 4,  link: 'https://java.com'},
      {name: 'html', imageLink: '/assets/img/logos/html_css_logo.png', skillLevel: 80, star: 4,
      link: 'https://html.spec.whatwg.org/multipage/'},

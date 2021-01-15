@@ -5,8 +5,8 @@
             <div class="col-md-6 ">
                 <div class="panel panel-primary">
                     <div class="col-md-6 pb-2">
-                        feel free to
-                        <h3>Contact me</h3>
+                      learned so far
+                        <h3>Education</h3>
                     </div>
                     <ul class="timeline">
                         <li class="pb-2" *ngFor="let period of eduTimePeriod">
@@ -25,8 +25,10 @@
                     </div>
                     <ul class="timeline">
                         <li class="pb-2" *ngFor="let period of profTimePeriod">
-                            <strong>{{period.endDate | date:' y' }}</strong><br> {{period.title}}
-                            <br>{{period.description}}
+                            <strong>{{period.endDate | date:' y' }}</strong><br>
+                          {{period.title}}<br>
+                          <a *ngIf="period.link != null" href={{period.link}}> {{period.description}} </a>
+                          <a *ngIf="period.link == null">{{period.description}}</a>
                         </li>
                     </ul>
                 </div>

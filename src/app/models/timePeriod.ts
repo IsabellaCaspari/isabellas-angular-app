@@ -3,4 +3,5 @@ export interface TimePeriod {
   description?: string;
   startDate: Date;
   endDate?: Date;
+  link?: string;
 }
