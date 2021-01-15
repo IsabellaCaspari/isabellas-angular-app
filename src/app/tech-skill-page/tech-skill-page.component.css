@@ -31,6 +31,10 @@
 
 @media only screen and (max-width: 767px) {
     .card-img {
-        width: 30%!important;
+        width: 70%!important;
     }
+
+  .card-body{
+    visibility: hidden !important;
+  }
 }
