@@ -13,7 +13,7 @@ import { AboutMePageComponent } from './about-me-page/about-me-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { FormsModule } from '@angular/forms';
 import { PortfolioSiteComponent } from './portfolio-site/portfolio-site.component';
-import { CarouselModule } from 'ngx-bootstrap';
+import {CarouselModule} from "ngx-bootstrap/carousel";
 
 
 @NgModule({
