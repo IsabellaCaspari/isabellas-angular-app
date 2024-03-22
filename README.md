@@ -8,7 +8,14 @@ This is my personal website, it contains information about me and my portfolio i
 ## Development server
 
 Change Node version `sudo n v12.20`
+Run `ng serve` for a dev server.
 Password:
+
+## Deployment
+Run `ng build`
+Open Isabellas-angular-app/dist 
+Copy and paste to https://github.com/IsabellaCaspari/isabellacaspari.github.io
+Push and open a private tap to see all changes
 
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
