@@ -7,6 +7,10 @@ This is my personal website, it contains information about me and my portfolio i
 
 ## Development server
 
+Change Node version `sudo n v12.20`
+Password:
+
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
